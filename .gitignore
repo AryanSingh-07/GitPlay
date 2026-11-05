@@ -1,0 +1,11 @@
+# Installed packages and local runtime output
+node_modules/
+.run/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local connector configuration can contain API credentials
+.vscode/mcp.json
